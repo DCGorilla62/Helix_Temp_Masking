@@ -22,7 +22,7 @@ def make_plot(x,y,name, y_range=None):
       axs.set_ylabel("Temperature (C)",fontsize=12)
       plt.title(name)
       #plt.savefig(os.path.join(data_path,"plots_all\\"+names_payload[i]+".png"), bbox_inches='tight')
-      plt.show()
+      #plt.show()
         
         
 def time_mask(timesx,seriesy,case_var):
